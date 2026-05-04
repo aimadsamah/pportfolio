@@ -9,28 +9,28 @@ export const NAV_LINKS: NavLink[] = [
 
 export const TIMELINE: TimelineItem[] = [
   {
-    year: "2021 — 2025",
-    title: "B.Sc. Information Systems",
+    year: "2017 — 2021",
+    title: "B.Sc. Information Systems and Software Engineering",
     subtitle:
-      "University of Science nd Technology Houari Boumediene — Focus on software engineering, distributed systems, databases, and algorithmic thinking.",
+      "University of Science and Technology Houari Boumediene (USTHB) — Focus on software engineering, distributed systems, databases, and algorithmic thinking.",
   },
   {
-    year: "2023",
-    title: "Full-Stack Mastery",
+    year: "2022 — 2026",
+    title: "Full-Stack Development",
     subtitle:
-      "Deep dive into the MERN stack. Built and shipped production applications with React, Node.js, Express, and MongoDB.",
+      "Specialized in building high-performance web applications. Focused on creating Luxury aesthetics with advanced animations and a mobile-first responsive design for high-end clients.",
   },
   {
-    year: "2024",
-    title: "TypeScript & Next.js",
+    year: "2025 — 2026",
+    title: "E-commerce & Digital Marketing",
     subtitle:
-      "Adopted TypeScript across all projects. Migrated to Next.js App Router for SSR, SSG, and superior performance.",
+      "Managed online stores and Meta advertising campaigns. Focused on sales optimization and order management to drive business growth.",
   },
   {
     year: "Now",
     title: "Open to Opportunities",
     subtitle:
-      "Actively building, contributing to open-source, and ready for my next challenge on a world-class team.",
+      "A motivated developer with an engineering background and a business mindset. Eager to join a team and build high-impact digital products.",
   },
 ];
 
@@ -44,7 +44,7 @@ export const SKILLS: SkillTile[] = [
   { icon: "🍃", name: "MongoDB", tag: "Database", size: "sm" },
   { icon: "💨", name: "Tailwind CSS", tag: "Styling", size: "wide" },
   { icon: "🐙", name: "Git & GitHub", tag: "Version Control", size: "sm" },
-  { icon: "🐳", name: "Docker", tag: "DevOps", size: "sm" },
+  //{ icon: "🐳", name: "Docker", tag: "DevOps", size: "sm" },
   { icon: "🔐", name: "REST APIs", tag: "Architecture", size: "wide" },
   { icon: "☁️", name: "Vercel", tag: "Deployment", size: "sm" },
 ];
@@ -52,48 +52,69 @@ export const SKILLS: SkillTile[] = [
 export const PROJECTS: Project[] = [
   {
     num: "01",
-    title: "DevFlow Platform",
+    title: "Luxury Hotel Platform",
     description:
-      "A full-stack developer Q&A platform with real-time answers, voting systems, and reputation tracking. Built for scale with optimistic UI updates and edge-cached responses.",
-    tech: ["Next.js", "TypeScript", "MongoDB", "Tailwind"],
-    glowColor: "#2563eb",
+      "A premium hotel management system featuring real-time room reservations, a customer messaging system, and a comprehensive administrative dashboard for booking oversight.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwind",
+    ],
+    glowColor: "#D4AF37", // Or pour le côté luxe
     status: "Live",
-    label: "SaaS Platform",
+    label: "Hospitality SaaS",
     liveUrl: "#",
     githubUrl: "#",
   },
   {
     num: "02",
-    title: "Commerce Engine",
+    title: "Restaurant Platform",
     description:
-      "Modern e-commerce solution with dynamic product catalogs, Stripe payment integration, and a real-time inventory management dashboard built on a REST API backend.",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
+      "A sophisticated restaurant website with a dynamic menu, contact forms, and a secure admin dashboard to manage reservations and site content seamlessly.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwind",
+    ],
     glowColor: "#7c3aed",
-    status: "In Progress",
-    label: "E-Commerce",
+    status: "Live",
+    label: "Restaurant Solution",
     githubUrl: "#",
   },
   {
     num: "03",
-    title: "Atlas CMS",
+    title: "Dir Lkhir Platform",
     description:
-      "A headless content management system featuring a visual editor, advanced media management, and dual REST + GraphQL APIs for multi-channel content delivery at scale.",
-    tech: ["Next.js", "TypeScript", "PostgreSQL", "GraphQL"],
-    glowColor: "#0891b2",
+      "A community solidarity platform connecting individuals in need of medical or moral support with local donors, focused on direct hand-to-hand aid.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwind",
+    ],
+    glowColor: "#059669",
     status: "Live",
-    label: "CMS / API",
+    label: "Solidarity Network",
     liveUrl: "#",
     githubUrl: "#",
   },
   {
     num: "04",
-    title: "PulseMetrics",
+    title: "Custom Mirror Atelier",
     description:
-      "Real-time analytics dashboard for web applications. Track custom events, visualize conversion funnels, and monitor live performance KPIs with a WebSocket-powered data pipeline.",
-    tech: ["React", "Node.js", "Socket.io", "MongoDB"],
-    glowColor: "#059669",
-    status: "Beta",
-    label: "Analytics",
+      "A specialized e-commerce experience for personalized mirrors, featuring a high-end UI built with Next.js App Router for superior performance and SEO.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    glowColor: "#2563eb",
+    status: "Live",
+    label: "E-Commerce",
     githubUrl: "#",
   },
 ];

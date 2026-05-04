@@ -59,7 +59,7 @@ export function FooterSection() {
             {/* Social links */}
             <div className="flex items-center gap-3">
               <a
-                href="https://github.com"
+                href="https://github.com/aimadsamah"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary text-[11px] py-2.5 px-5 inline-flex items-center gap-2"
@@ -68,7 +68,7 @@ export function FooterSection() {
                 GitHub
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/aimadsam/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-secondary text-[11px] py-2.5 px-5 inline-flex items-center gap-2"

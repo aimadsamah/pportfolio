@@ -115,6 +115,6 @@ export const PROJECTS: Project[] = [
     glowColor: "#2563eb",
     status: "Live",
     label: "E-Commerce",
-    githubUrl: "#",
+    githubUrl: "https://mirrors-aymen.vercel.app/",
   },
 ];

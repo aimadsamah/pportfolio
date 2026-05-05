@@ -1,13 +1,13 @@
-'use client'
+"use client";
 
-import { useRef } from 'react'
-import { motion, useScroll, useTransform } from 'framer-motion'
-import { SectionLabel } from '@/components/ui/SectionLabel'
-import { ProjectCard } from '@/components/ui/ProjectCard'
-import { PROJECTS } from '@/lib/data'
+import { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { SectionLabel } from "@/components/ui/SectionLabel";
+import { ProjectCard } from "@/components/ui/ProjectCard";
+import { PROJECTS } from "@/lib/data";
 
 export function ProjectsSection() {
-  const scrollRef = useRef<HTMLDivElement>(null)
+  const scrollRef = useRef<HTMLDivElement>(null);
 
   return (
     <section id="projects" className="relative z-10">
@@ -26,7 +26,7 @@ export function ProjectsSection() {
             <div className="flex items-end justify-between flex-wrap gap-4">
               <h2
                 className="font-syne font-bold text-white leading-[1.08] tracking-[-1.5px]"
-                style={{ fontSize: 'clamp(32px, 3.5vw, 48px)' }}
+                style={{ fontSize: "clamp(32px, 3.5vw, 48px)" }}
               >
                 Selected <span className="text-blue-bright">Work.</span>
               </h2>
@@ -41,9 +41,15 @@ export function ProjectsSection() {
         <div
           ref={scrollRef}
           className="overflow-x-auto pb-6 cursor-none"
-          style={{ scrollbarWidth: 'thin', scrollbarColor: '#1e3a6e transparent' }}
+          style={{
+            scrollbarWidth: "thin",
+            scrollbarColor: "#1e3a6e transparent",
+          }}
         >
-          <div className="flex gap-6 px-[60px] max-sm:px-6" style={{ width: 'max-content' }}>
+          <div
+            className="flex gap-6 px-[60px] max-sm:px-6"
+            style={{ width: "max-content" }}
+          >
             {PROJECTS.map((project, i) => (
               <ProjectCard key={project.num} project={project} index={i} />
             ))}
@@ -81,12 +87,12 @@ export function ProjectsSection() {
           <motion.span
             className="text-gray-border"
             animate={{ x: [0, 6, 0] }}
-            transition={{ repeat: Infinity, duration: 1.5, ease: 'easeInOut' }}
+            transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
           >
             →
           </motion.span>
         </motion.div>
       </div>
     </section>
-  )
+  );
 }

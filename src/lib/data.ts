@@ -52,9 +52,9 @@ export const SKILLS: SkillTile[] = [
 export const PROJECTS: Project[] = [
   {
     num: "01",
-    title: "Luxury Hotel Platform",
+    title: "Dir Lkhir Platform",
     description:
-      "A premium hotel management system featuring real-time room reservations, a customer messaging system, and a comprehensive administrative dashboard for booking oversight.",
+      "A community solidarity platform connecting individuals in need of medical or moral support with local donors, focused on direct hand-to-hand aid.",
     tech: [
       "Next.js",
       "TypeScript",
@@ -63,10 +63,10 @@ export const PROJECTS: Project[] = [
       "MongoDB",
       "Tailwind",
     ],
-    glowColor: "#D4AF37", // Or pour le côté luxe
+    glowColor: "#059669",
     status: "Live",
-    label: "Hospitality SaaS",
-    liveUrl: "#",
+    label: "Solidarity Network",
+    liveUrl: "https://entreaide-dz.vercel.app/",
     githubUrl: "#",
   },
   {
@@ -85,13 +85,14 @@ export const PROJECTS: Project[] = [
     glowColor: "#7c3aed",
     status: "Live",
     label: "Restaurant Solution",
+    liveUrl: "https://restaurant-menudz.vercel.app/",
     githubUrl: "#",
   },
   {
     num: "03",
-    title: "Dir Lkhir Platform",
+    title: "Luxury Hotel Platform",
     description:
-      "A community solidarity platform connecting individuals in need of medical or moral support with local donors, focused on direct hand-to-hand aid.",
+      "A premium hotel management system featuring real-time room reservations, a customer messaging system, and a comprehensive administrative dashboard for booking oversight.",
     tech: [
       "Next.js",
       "TypeScript",
@@ -100,11 +101,11 @@ export const PROJECTS: Project[] = [
       "MongoDB",
       "Tailwind",
     ],
-    glowColor: "#059669",
+    glowColor: "#D4AF37", // Or pour le côté luxe
     status: "Live",
-    label: "Solidarity Network",
-    liveUrl: "#",
-    githubUrl: "#",
+    label: "Hospitality SaaS",
+    liveUrl: "",
+    githubUrl: "",
   },
   {
     num: "04",

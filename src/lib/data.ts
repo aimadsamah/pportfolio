@@ -67,7 +67,7 @@ export const PROJECTS: Project[] = [
     status: "Live",
     label: "Solidarity Network",
     liveUrl: "https://entreaide-dz.vercel.app/",
-    githubUrl: "#",
+    githubUrl: "https://github.com/aimadsamah",
   },
   {
     num: "02",
@@ -86,7 +86,7 @@ export const PROJECTS: Project[] = [
     status: "Live",
     label: "Restaurant Solution",
     liveUrl: "https://restaurant-menudz.vercel.app/",
-    githubUrl: "#",
+    githubUrl: "https://github.com/aimadsamah",
   },
   {
     num: "03",
@@ -104,8 +104,8 @@ export const PROJECTS: Project[] = [
     glowColor: "#D4AF37", // Or pour le côté luxe
     status: "Live",
     label: "Hospitality SaaS",
-    liveUrl: "",
-    githubUrl: "",
+    liveUrl: "https://hotel-services-theta.vercel.app/",
+    githubUrl: "https://github.com/aimadsamah",
   },
   {
     num: "04",
@@ -117,6 +117,6 @@ export const PROJECTS: Project[] = [
     status: "Live",
     label: "E-Commerce",
     liveUrl: "https://mirrors-aymen.vercel.app/",
-    githubUrl: "#",
+    githubUrl: "https://github.com/aimadsamah/mirrors-aymen",
   },
 ];
